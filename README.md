@@ -1,17 +1,56 @@
-# mini_store
+# Mini Store App
 
-A new Flutter project.
+## ▪ Proje Adı
 
-## Getting Started
+Mini Store App
 
-This project is a starting point for a Flutter application.
+## ▪ Kısa Açıklama
 
-A few resources to get you started if this is your first Flutter project:
+Mini Store App, Flutter kullanılarak geliştirilmiş basit bir e-store katalog uygulamasıdır.
+Uygulama bir ürün listesini API üzerinden çekerek GridView içinde gösterir. Kullanıcılar ürün detaylarını görüntüleyebilir, ürünleri sepete ekleyebilir ve sepetteki ürünlerin toplam fiyatını görebilir.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Bu proje Flutter’da **Navigator kullanımı, Route Arguments, API veri çekme, GridView tasarımı ve temel state yönetimi** konularını göstermek amacıyla geliştirilmiştir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ▪ Kullanılan Flutter Sürümü
+
+Flutter SDK: **3.41.2**
+Dart: **3.11.0**
+
+## ▪ Çalıştırma Adımları
+
+1. Projeyi klonlayın:
+
+```
+git clone https://github.com/kullaniciadi/mini_store_app.git
+```
+
+2. Proje klasörüne gidin:
+
+```
+cd mini_store_app
+```
+
+3. Gerekli paketleri yükleyin:
+
+```
+flutter pub get
+```
+
+4. Uygulamayı çalıştırın:
+
+```
+flutter run
+```
+
+Uygulama çalıştığında ana sayfada API’den gelen ürün listesi görüntülenecektir.
+
+## Ekran Görüntüleri
+
+### Home Screen
+![Home Screen](screenshots/screenshot1.png)
+
+### Detail Screen
+![Detail Screen](screenshots/screenshot2.png)
+
+### Cart Screen
+![Cart Screen](screenshots/screenshot3.png)
