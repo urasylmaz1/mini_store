@@ -21,7 +21,7 @@ Dart: **3.11.0**
 1. Projeyi klonlayın:
 
 ```
-git clone https://github.com/kullaniciadi/mini_store_app.git
+git clone https://github.com/urasylmaz1/mini_store.git
 ```
 
 2. Proje klasörüne gidin:
